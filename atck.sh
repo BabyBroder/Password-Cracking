@@ -10,7 +10,7 @@ echo "The rar file: "
 read rar_file
 echo "The target file: "
 read target_file
-python3 attack.py ${rar_file} ${target_file}
+python3 attack.py ${rar_file} "${target_file}"
 echo "I will remove the dictionary from the information in the owner file rar."
 cd ../dictionary/information_user
 rm -r *
