@@ -1,8 +1,9 @@
-# Requirements
+# Requirements:
 
 	sudo apt-get install rar
 	sudo apt-get install unrar
-
+ 	sudo apt-get install libgtk-3-dev
+Quickly install using the command: ```make```
 # USAGE
 
 If you install gi.repository, it gives you the GUI.
