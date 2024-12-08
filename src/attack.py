@@ -208,8 +208,9 @@ attack() - class:
                     
                 else: 
                     passwd_writable = passwd_writable + self.passwd[i]
-                    
-            print(f'[~]Guessing:........ {self.passwd}')
+
+            # For debug
+            # print(f'[~]Guessing:........ {self.passwd}')
             
             # Execute the RAR extraction command
             command = f'unrar t -p"{passwd_writable.strip()}" {self.rar_file}'
@@ -243,8 +244,9 @@ attack() - class:
                     
                 else: 
                     passwd_writable = passwd_writable + self.passwd[i]
-                    
-            print(f'[~]Guessing:........ {self.passwd}')
+
+            # For debug
+            # print(f'[~]Guessing:........ {self.passwd}')
             
             # Execute the RAR extraction command
             command = f'rar -p"{passwd_writable.strip()}" x {self.rar_file} "{self.target_file}"'
